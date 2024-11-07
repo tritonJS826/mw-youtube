@@ -9,10 +9,10 @@
 6. [sql vs noSql (db comparison)]()
 7. [what is goroutine]()
 8. [mutex, syncmap]()
-9. [loadtest - how to loadtest api]()
+9. [how to loadtest website from terminal]()
 10. [golang: what is context]()
-11. [gin framewor]()k
-12. [websocket]()
+11. [gin framework]()
+12. [golang: websockets]()
 13. [http 1.1 vs http 2]()
 14. [how to adjust postgres for best performance]()
 15. [what is sqlc]()
@@ -27,6 +27,8 @@
 24. [defer]()
 25. [golang: channels types (buffered and unbuffered)]()
 26. [go test flags (cpu, -v)]()
+27. [golang: channels vs wait group]()
+
 
 ## Utils
 1. [grpcurl]()
