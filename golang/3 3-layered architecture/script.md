@@ -1,4 +1,4 @@
-"Today, let's dive into the Standard 3-Layer Architecture in Go, using the Gin framework. This structure is great for scalable applications, as it cleanly separates responsibilities across three layers: the Handler, Service, and Repository.
+Today, let's dive into the Standard 3-Layer Architecture in Go, using the Gin framework. This structure is great for scalable applications, as it cleanly separates responsibilities across three layers: the Handler, Service, and Repository.
 
 First, in the Handler or Controller layer, we manage HTTP requests. The handler receives requests, validates them, and then forwards them to the service layer.
 

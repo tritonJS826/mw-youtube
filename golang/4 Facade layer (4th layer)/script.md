@@ -5,13 +5,12 @@
 "The Facade Layer is like a gateway. It simplifies complex systems by providing a unified interface. Instead of interacting with multiple subsystems, you talk to just one!"
 
 [Step 2: Why Use It?]
-"It reduces complexity, makes your code easier to maintain, and improves readability. Let’s say you have different services, but you just need a simple method to interact with them."
+Let’s say you have different services: userService and Order servide, but you just need a simple method to interact with them."
 
 [Step 3: Example in Go]
-"Here’s an example in Go where the Facade simplifies calling different services. We’ll create a UserFacade to interact with user-related operations."
+We’ll create a UserFacade to interact with user-related operations."
 
-go
-Copy code
+```go
 package main
 
 import (
@@ -57,9 +56,21 @@ func main() {
     } else {
         fmt.Println(details)
     }
-}
+}```
+
 [Step 4: Benefits of Facade Layer]
 "As you can see, instead of dealing with both UserService and OrderService directly, we interact with a single UserFacade. This makes our code more organized!"
 
 [Outro]
 "And that's the Facade Layer in action! It simplifies complex systems. Don’t forget to like and follow for more tips!"
+
+
+
+slides:
+1. 3-Layers diagram
+2. 4-layers diagram
+3. print userService
+4. print orderServie
+5. create facade in the tree
+6. print facade code
+7. remove services logic from handler and replace it on facade 

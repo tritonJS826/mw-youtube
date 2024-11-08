@@ -3,7 +3,7 @@
 ## Golang tips
 1. [Sharing modules in monorepo](https://www.youtube.com/shorts/vcXEClI3QSs)
 2. [How to add swagger to your project](https://youtu.be/caSx8LOUFKM)
-3. [3 layers architecture]()
+3. [3 layers architecture](https://youtube.com/shorts/Rhg7Z3QzO3U)
 4. [Facade layer (4th layer)]()
 5. [grpc vs rest]()
 6. [sql vs noSql (db comparison)]()

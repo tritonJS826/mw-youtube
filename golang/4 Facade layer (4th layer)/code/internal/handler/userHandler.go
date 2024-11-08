@@ -1,19 +1,19 @@
 package handler
 
 import (
-	"import-swag/internal/service"
+	"facade/internal/facade"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
 
 type UserHandler struct {
-	service service.UserService
+	facade facade.UserFacade
 }
 
 func (uh *UserHandler) GetUser(c *gin.Context) {
 	userID := c.Param("userId")
-	user, err := uh.service.GetUser(userID)
+	user, err := uh.facade.GetUserDetails(userID)
 	if err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"error": "User not found"})
 	}
