@@ -4,7 +4,7 @@
 1. [Sharing modules in monorepo](https://www.youtube.com/shorts/vcXEClI3QSs)
 2. [How to add swagger to your project](https://youtu.be/caSx8LOUFKM)
 3. [3 layers architecture](https://youtube.com/shorts/Rhg7Z3QzO3U)
-4. [Facade layer (4th layer)]()
+4. [Facade layer (4th layer)](https://youtube.com/shorts/ab9qmtxBj4g?feature=share)
 5. [grpc vs rest]()
 6. [sql vs noSql (db comparison)]()
 7. [what is goroutine]()
@@ -93,3 +93,7 @@
 ## Vim
 - 1. [vimtutor]()
 - 2. [vimium plugin]()
+
+
+## MW selling
+- 1. [looking for students for 30$ to test the app]()
